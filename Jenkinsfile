@@ -11,6 +11,7 @@ pipeline {
         stage('bash') {
           steps {
             echo 'hello step2'
+            echo 'testing'
           }
         }
       }
