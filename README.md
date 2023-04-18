@@ -1,1 +1,1 @@
-# epamautotest
+# autotest
