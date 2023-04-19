@@ -3,7 +3,7 @@ name: CI
 on: 
   push:
     branches: [ "master" ]
-  merge_pull_request:
+  merge_group:
     branches: [ "master" ]
     paths-ignore:
     - "**.doc"
