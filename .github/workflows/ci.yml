@@ -8,6 +8,7 @@ on:
     paths-ignore:
       - '**.doc'
       - 'README.md'
+      - '.github/workflows/'
   merge_group:
     branches: 
       - master
