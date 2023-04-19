@@ -1,8 +1,11 @@
 name: CI
 
-on: [ "push", "pull_request", "merge_pull_request" ]
-  branches: [ "master" ]
-  paths-ignore:
+on: 
+  push:
+    branches: [ "master" ]
+  merge_pull_request:
+    branches: [ "master" ]
+    paths-ignore:
     - "**.doc"
     - "README.md"
 
