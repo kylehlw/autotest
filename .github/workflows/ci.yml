@@ -1,8 +1,11 @@
 name: CI
 
 on: 
-  #push:
-  #  branches: [ "master" ]
+  push:
+    branches: [ "master" ]
+    paths-ignore:
+    - "**.doc"
+    - "README.md"
   merge_group:
     paths-ignore:
     - "**.doc"
