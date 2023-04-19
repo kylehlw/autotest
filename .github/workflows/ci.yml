@@ -1,6 +1,6 @@
 name: CI
 
-on: [ "push, pull_request, merge_pull_request" ]
+on: [ "push", "pull_request", "merge_pull_request" ]
   branches: [ "master" ]
   paths-ignore:
     - "**.doc"
